@@ -60,5 +60,12 @@ This allows for a clear comparison of model performance in identifying fraudulen
 - Logistic Regression provided an interpretable baseline model
 - Decision Tree offered simplicity and explainability
 
+## Possible Improvements
+- Handle class imbalance using SMOTE or other resampling techniques
+- Perform hyperparameter tuning for optimal model performance
+- Include ROC-AUC and confusion matrix visualization
+- Deploy the model as a real-time fraud detection API
+- Incorporate additional transaction features
+
 ## Conclusion
 This project demonstrates a complete machine learning pipeline, including data preprocessing, exploratory analysis, feature engineering, model training, and evaluation. It highlights practical skills in applying supervised learning techniques to real-world financial fraud detection problems.
