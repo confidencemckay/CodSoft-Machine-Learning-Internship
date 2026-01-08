@@ -8,20 +8,20 @@ By transforming text data into numerical features using **TF-IDF vectorization**
 ## Dataset
 
 The project uses two text-based datasets:
-- **Training dataset**: 'train_data.txt'
+- **Training dataset**: `train_data.txt`
   Contains:
   - ID
   - TITLE
   - GENRE (target label)
 
-  ## DESCRIPTION
+  ### DESCRIPTION
 
 - **Test dataset**: 'test_data.txt'
   Contains:
   - ID
   - TITLE
 
-  ## DESCRIPTION
+  ### DESCRIPTION
 
   The files use a custom delimiter (:::) and are loaded using Pandas.
 
@@ -33,7 +33,7 @@ The project uses two text-based datasets:
 
 ## Project Workflow
 ### 1. Data Loading
-- Reads training and test datasets from '.txt' files
+- Reads training and test datasets from `.txt` files
 - Assigns appropriate column names
 - Handles custom delimiters using Python’s parsing engine
 
@@ -62,7 +62,7 @@ This provides insight into how well the model performs across different genres.
 - Applies the trained TF-IDF vectorizer to test descriptions
 - Predicts genres for unseen data
 - Saves results to a CSV file:
-  'predicted_test_data.csv'
+  `predicted_test_data.csv`
 
 ### Technologies Used
 - **Python**
