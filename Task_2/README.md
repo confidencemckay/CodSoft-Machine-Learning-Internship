@@ -55,7 +55,7 @@ Each model was evaluated using:
 Model performance was compared based on accuracy, and results were summarized in a comparison table for easy analysis.
 The comparison helps determine which algorithm performs best for churn prediction on this dataset.
 
-##Technologies & Libraries
+## Technologies & Libraries
 - **Python**
 - **Pandas & NumPy** – Data handling
 - **Matplotlib & Seaborn** – Data visualization
