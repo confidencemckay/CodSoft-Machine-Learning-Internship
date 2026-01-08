@@ -66,7 +66,7 @@ The comparison helps determine which algorithm performs best for churn predictio
 - Addressed class imbalance to improve predictive performance
 - Identified Gradient Boosting and Random Forest as strong performers for churn prediction
 
-## Future Improvements
+## Possible Improvements
 - Hyperparameter tuning for better performance
 - Feature importance analysis
 - Use of SMOTE for advanced imbalance handling
