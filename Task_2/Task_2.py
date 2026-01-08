@@ -11,6 +11,9 @@ from sklearn.ensemble import RandomForestClassifier
 import seaborn as sns
 from matplotlib import pyplot as plt
 
+# Deployment
+import joblib
+
 # Load the dataset
 df = pd.read_csv("fraudTrain.csv")
 
@@ -87,3 +90,7 @@ rf_model.fit(X_train, y_train)
 rf_pred = rf_model.predict(X_test)
 print("\nRandom Forest Results:")
 print(classification_report(y_test, rf_pred))
+
+# Deployment
+joblib.dump(rf_model, "fraud_model.pkl")
+joblib.dump(scaler, "scaler.pkl")
