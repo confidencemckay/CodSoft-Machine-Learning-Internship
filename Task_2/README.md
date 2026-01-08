@@ -36,7 +36,7 @@ These visualizations help identify patterns and relationships within the data.
 Three supervised classification models were trained and evaluated:
 - **Logistic Regression**
 - **Decision Tree Classifier**
-- **Random Forest Classifier*
+- **Random Forest Classifier**
 Each model was trained on the same preprocessed data for fair comparison.
 
 ## Model Evaluation
