@@ -1,7 +1,7 @@
 # CodSoft Machine Learning Internship Repository
 ### March 2024 - April 2024
 
-## Tasks Completed: 
+### Tasks Completed: 
 ## 1. Movie Genre Prediction (NLP) 🎬 
 
 Developed a text classification model to predict movie genres from plot descriptions using **TF-IDF vectorization** and **Logistic Regression**. Implemented data preprocessing, model validation, and multi-class evaluation, achieving reliable genre predictions and exporting results for unseen data.
